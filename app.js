@@ -2,7 +2,8 @@ var button = document.querySelector("#btn");
 var input = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#txt-output");
 
-var serverUrl= "https://api.funtranslations.com/translate/ferb-latin.json"
+var serverUrl= "https://api.funtranslations.com/translate/minion.json"  
+/* var serverUrl= "https://api.funtranslations.com/translate/ferb-latin.json"  for ferb*/ 
 
 function getTranslationUrl(input) {
     return serverUrl + "?" + "text=" + input
