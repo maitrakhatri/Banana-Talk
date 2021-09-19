@@ -1,0 +1,46 @@
+.header{
+    background-color: 	#FFD55E;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.input{
+    margin-bottom: 1rem;
+    padding: 5rem;
+    float: none;
+    
+}
+
+.btn{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.output{
+    margin-bottom: 3rem;
+    padding: 3rem;
+    border-style: solid;
+
+}
+
+.image1 {
+    max-width: 150px;
+    float: left;
+}
+
+.image2 {
+    max-width: 300px;
+    float: left;
+}
+
+.output {
+    margin-left: 310px;
+
+}
+
+textarea {
+    width: 750px;
+    border-style: solid;
+}

@@ -5,19 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basics of Vanilla JS</title>
+    <link href="style.css" rel="stylesheet" />
 </head>
 <body>
     
-<H1>Banana Talk</H1>
+    <div class="header">
+        <H1>Banana Talk <br> </H1>
+        <small>Subtitle</small>
+    </div>
 
-<button id="btn">I'm a button</button>
-<br>
 
-<textarea id="txt-input"> </textarea>
-<br>
+    <div class="input">
+        <img class="image1" src="human.svg">
+        <h2>What a Human whould say: </h2>
+        <textarea id="txt-input"> </textarea>
 
-<div style="border: solid;" id="txt-output"> </div>
-<br>
+    </div>
+
+
+    <div class="btn">
+        <button id="btn">Translate</button>
+    </div>
+
+
+    <h2 class="input">What a Minion would Say:</h2>
+    <img class="image2" src="minion.svg">
+    <div class="output" id="txt-output"> 
+
+    </div>
+
 
 
 <script src="app.js"></script>
