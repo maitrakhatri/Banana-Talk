@@ -17,6 +17,11 @@ body {
     margin: auto;
     padding: 2rem;
     
+    
+}
+
+textarea {
+    max-width: 20rem;
 }
 
 button{
@@ -39,7 +44,7 @@ button{
     margin-bottom: 3rem;
     padding: 3rem;
     border-style: solid;
-
+    max-width: 20rem;
 }
 
 .image1 {
