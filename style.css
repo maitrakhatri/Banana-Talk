@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body {
+    font-family: 'Shadows Into Light', cursive;
+}
+
 .header{
     background-color: 	#FFD55E;
     text-align: center;
@@ -7,15 +13,26 @@
 
 .input{
     margin-bottom: 1rem;
-    padding: 5rem;
-    float: none;
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
     
 }
 
-.btn{
-    margin-bottom: 1rem;
-    padding: 1rem;
+button{
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    background-color: #FFD55E;
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.btn {
     text-align: center;
+    padding: 2rem;
+    
 }
 
 .output{
@@ -36,11 +53,36 @@
 }
 
 .output {
-    margin-left: 310px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid #FFD55E;
+    padding: 2rem;
 
 }
 
 textarea {
     width: 750px;
     border-style: solid;
+    
+}
+
+.footer {
+    background-color: #FFD55E;
+    max-height: 125px;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.footer-title {
+    color: black;
+    padding-bottom: 1rem;
+
+}
+
+.footer-links {
+    color: black;
+    text-decoration-line: none;
+    padding: 2rem;
+    font-weight: bolder;
 }
