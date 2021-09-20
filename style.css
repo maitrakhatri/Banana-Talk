@@ -15,9 +15,7 @@ body {
     margin-bottom: 1rem;
     text-align: center;
     margin: auto;
-    padding: 2rem;
-    
-    
+    padding: 2rem;  
 }
 
 textarea {
@@ -45,16 +43,6 @@ button{
     padding: 3rem;
     border-style: solid;
     max-width: 20rem;
-}
-
-.image1 {
-    max-width: 150px;
-    float: left;
-}
-
-.image2 {
-    max-width: 300px;
-    float: left;
 }
 
 .output {
