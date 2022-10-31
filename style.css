@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Shadows Into Light', cursive;
+    margin: 0;
+    padding: 0;
 }
 
 .header{
@@ -30,19 +32,24 @@ button{
     box-sizing: border-box;
     font-weight: bolder;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .btn {
     text-align: center;
     padding: 2rem;
-    
 }
 
-.output{
-    margin-bottom: 3rem;
-    padding: 3rem;
-    border-style: solid;
+#txt-input {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #FFD55E;
+    padding: 2rem;
     max-width: 20rem;
+    outline: none;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 1.25rem;
 }
 
 .output {
@@ -50,18 +57,19 @@ button{
     width: 50%;
     border: 3px solid #FFD55E;
     padding: 2rem;
-
+    max-width: 20rem;
+    font-weight: bold;
+    font-size: 1.25rem;
 }
 
 textarea {
     width: 750px;
     border-style: solid;
-    
 }
 
 .footer {
     background-color: #FFD55E;
-    max-height: 125px;
+    /* max-height: 125px; */
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
@@ -70,7 +78,6 @@ textarea {
 .footer-title {
     color: black;
     padding-bottom: 1rem;
-
 }
 
 .footer-links {
